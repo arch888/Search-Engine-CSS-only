@@ -1,0 +1,294 @@
+.bod{
+	background-color: #000;
+}
+.img_google{
+	width: 200px;
+	height: 100px;
+}
+#sear{
+	background-color: #000;
+	width: 50%;
+	height: 50px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.search_bar{
+	margin-left: 25%;
+	margin-top: 200px;
+	padding: 0;
+	border: 0;
+	border-bottom: 1px solid blue;
+}
+
+
+/*for the specific block*/
+#google{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#gmail{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#fb{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#localhost{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#whatsapp{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#youtube{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#paytm{
+	display: none;
+	margin:100px;
+	float: left;
+}
+#torrent{
+	display: none;
+	margin:100px;
+	float: left;
+}
+
+/*to show up specific block*/
+
+#sear[value="g" i] ~ #google{
+	display: block;
+}
+#sear[value="go" i] ~ #google{
+	display: block;
+}
+#sear[value="goo" i] ~ #google{
+	display: block;
+}
+#sear[value="goog" i] ~ #google{
+	display: block;
+}
+#sear[value="googl" i] ~ #google{
+	display: block;
+}
+#sear[value="google" i] ~ #google{
+	display: block;
+}
+#sear[value="g" i] ~ #gmail{
+	display: block;
+}
+#sear[value="gm" i] ~ #gmail{
+	display: block;
+}
+#sear[value="gma" i] ~ #gmail{
+	display: block;
+}
+#sear[value="gmai" i] ~ #gmail{
+	display: block;
+}
+#sear[value="gmail" i] ~ #gmail{
+	display: block;
+}
+#sear[value="f" i] ~ #fb{
+	display: block;
+}
+#sear[value="fb" i] ~ #fb{
+	display: block;
+}
+#sear[value="fa" i] ~ #fb{
+	display: block;
+}
+#sear[value="fac" i] ~ #fb{
+	display: block;
+}
+#sear[value="face" i] ~ #fb{
+	display: block;
+}
+#sear[value="faceb" i] ~ #fb{
+	display: block;
+}
+#sear[value="facebo" i] ~ #fb{
+	display: block;
+}
+#sear[value="faceboo" i] ~ #fb{
+	display: block;
+}
+#sear[value="facebook" i] ~ #fb{
+	display: block;
+}
+#sear[value="l" i] ~ #localhost{
+	display: block;
+}
+#sear[value="lo" i] ~ #localhost{
+	display: block;
+}
+#sear[value="loc" i] ~ #localhost{
+	display: block;
+}
+#sear[value="loca" i] ~ #localhost{
+	display: block;
+}
+#sear[value="local" i] ~ #localhost{
+	display: block;
+}
+#sear[value="localh" i] ~ #localhost{
+	display: block;
+}
+#sear[value="localho" i] ~ #localhost{
+	display: block;
+}
+#sear[value="localhos" i] ~ #localhost{
+	display: block;
+}
+#sear[value="localhost" i] ~ #localhost{
+	display: block;
+}
+#sear[value="a" i] ~ #localhost{
+	display: block;
+}
+#sear[value="al" i] ~ #localhost{
+	display: block;
+}
+#sear[value="all" i] ~ #localhost{
+	display: block;
+}
+#sear[value="a" i] ~ #google{
+	display: block;
+}
+#sear[value="al" i] ~ #google{
+	display: block;
+}
+#sear[value="all" i] ~ #google{
+	display: block;
+}
+#sear[value="a" i] ~ #gmail{
+	display: block;
+}
+#sear[value="al" i] ~ #gmail{
+	display: block;
+}
+#sear[value="all" i] ~ #gmail{
+	display: block;
+}
+#sear[value="a" i] ~ #fb{
+	display: block;
+}
+#sear[value="al" i] ~ #fb{
+	display: block;
+}
+#sear[value="all" i] ~ #fb{
+	display: block;
+}
+#sear[value="w" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="wh" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="wha" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="what" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="whats" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="whatsa" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="whatsap" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="whatsapp" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="all" i] ~ #whatsapp{
+	display: block;
+}
+#sear[value="y" i] ~ #youtube{
+	display: block;
+}
+#sear[value="yo" i] ~ #youtube{
+	display: block;
+}
+#sear[value="you" i] ~ #youtube{
+	display: block;
+}
+#sear[value="yout" i] ~ #youtube{
+	display: block;
+}
+#sear[value="youtu" i] ~ #youtube{
+	display: block;
+}
+#sear[value="youtub" i] ~ #youtube{
+	display: block;
+}
+#sear[value="youtube" i] ~ #youtube{
+	display: block;
+}
+#sear[value="all" i] ~ #youtube{
+	display: block;
+}
+
+#sear[value="p" i] ~ #paytm{
+	display: block;
+}
+#sear[value="pa" i] ~ #paytm{
+	display: block;
+}
+#sear[value="pay" i] ~ #paytm{
+	display: block;
+}
+#sear[value="payt" i] ~ #paytm{
+	display: block;
+}
+#sear[value="paytm" i] ~ #paytm{
+	display: block;
+}
+#sear[value="all" i] ~ #paytm{
+	display: block;
+}
+
+#sear[value="t" i] ~ #torrent{
+	display: block;
+}
+#sear[value="to" i] ~ #torrent{
+	display: block;
+}
+#sear[value="tor" i] ~ #torrent{
+	display: block;
+}
+#sear[value="torr" i] ~ #torrent{
+	display: block;
+}
+#sear[value="torre" i] ~ #torrent{
+	display: block;
+}
+#sear[value="torren" i] ~ #torrent{
+	display: block;
+}
+#sear[value="torrent" i] ~ #torrent{
+	display: block;
+}
+#sear[value="all" i] ~ #torrent{
+	display: block;
+}
+
+input::placeholder {
+    color: blue;
+    opacity: 0.4; 
+}
+
+
